@@ -5,7 +5,7 @@
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
+      <link rel="import" href="about.html">
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
@@ -36,7 +36,7 @@
   </ul>
         
 	
-            <div id="includedContent"></div> 
+            <div id="includedContent1"></div> 
 	
 	
 	
@@ -73,5 +73,10 @@
 		$('.modal-trigger').leanModal();
 		});
       </script>
+	  		 <script> 
+    $(function(){
+      $("#includedContent1").load("about.html"); 
+    });
+    </script> 
 	</body>
 	</html>
